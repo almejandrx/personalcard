@@ -19,11 +19,11 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 370px;
+    max-width: 550px;
     width: 100%;
     background: white;
     border-radius: 17px;
-    padding: 25px;
+    padding: 40px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     position: relative;
 }
@@ -70,6 +70,7 @@ body{
     display: flex;
     align-items:  center;
     margin-top: 18px;
+    margin-bottom: 7px;
 }
 
 .media .link{
@@ -85,6 +86,26 @@ body{
     background-color: white;
     text-decoration: none;
     transition: all 0.3 ease;
+}
+
+#notengo:hover{
+    color: rgb(97, 147, 163);
+    font-size: 33px;
+}
+
+.knowledge{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    height: 100%;
+    width: 100%;
+}
+
+#kn{
+    margin: 0 6px;
+    padding-bottom: 10px;
+    padding-top: 5px;
 }
 
 .text-data .name{
@@ -127,15 +148,15 @@ body{
 
 #github:hover{
     color: rgb(97, 147, 163);
-    font-size: 27px;
+    font-size: 30px;
 }
 
 #instagram:hover{
     color: rgb(97, 147, 163);
-    font-size: 27px;
+    font-size: 30px;
 }
 
 #linkedin:hover{
     color: rgb(97, 147, 163);
-    font-size: 27px;
+    font-size: 30px;
 }
